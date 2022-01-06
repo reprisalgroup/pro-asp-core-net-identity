@@ -14,7 +14,7 @@
             </tr>
         </thead>    
     <tbody>
-        @foreach (Product p in Model.DbContext.Products.OrderBy(Page=> Page.id))
+        @foreach (Product p in Model.DbContext.Products.OrderBy(Page=> Page.Id))
         {
             <tr>
                 <td>@p.Id</td>

@@ -7,7 +7,7 @@ namespace IdentityApp.Controllers
     {
         private ProductDbContext DbContext;
 
-        public AdminController(ProductDbContext ctx)=> DbContext = ctx;1
+        public AdminController(ProductDbContext ctx)=> DbContext = ctx;
         
         public IActionResult Index() => View(DbContext.Products);
 

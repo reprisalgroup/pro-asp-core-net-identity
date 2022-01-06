@@ -12,4 +12,19 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\lib\twitter-bootstrap\css\bootstrap-grid.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\twitter-bootstrap\css\bootstrap-reboot.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\twitter-bootstrap\css\bootstrap.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\lib\twitter-bootstrap\js\bootstrap.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

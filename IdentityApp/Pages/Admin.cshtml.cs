@@ -6,7 +6,7 @@ namespace IdentityApp.Pages
 {
     public class AdminModel : PageModel
     {
-        public AdminModel(ProductDbContext ctx) => ProductDbContext = ctx;
+        public AdminModel(ProductDbContext ctx) => DbContext = ctx;
 
         public ProductDbContext DbContext { get; set; }
 
